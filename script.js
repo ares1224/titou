@@ -1,7 +1,7 @@
 // Basic interactions for TITOU site
 const LINKS = {
   telegram: 'https://t.me/one_eye_circle',
-  twitter: 'https://twitter.com/YourTwitterHere',
+  twitter: 'https://x.com/TitouCoin',
   dex: '#', // Replace with your DEX link (Jupiter / Uniswap / Raydium etc.)
 };
 
