@@ -228,3 +228,14 @@ p .chain,
   background: none;
   text-shadow: none;
 }
+#copyAddress{
+  background: #d4af37;          /* or */
+  color: #0a0a0a;                /* texte noir */
+  border: 2px solid #d4af37;
+}
+#copyAddress:hover{
+  filter: brightness(1.08);
+  box-shadow: 0 0 12px rgba(212,175,55,.6);
+}
+#copyAddress:active{ transform: translateY(0); }
+
