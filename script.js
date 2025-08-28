@@ -69,8 +69,8 @@ function copyContract() {
   btn.addEventListener('click', async () => {
     try {
       await navigator.clipboard.writeText(code.textContent.trim());
-      btn.textContent = 'Copié !';
-      setTimeout(() => (btn.textContent = 'Copier'), 1200);
+      btn.textContent = 'Copied !';
+      setTimeout(() => (btn.textContent = 'Copy'), 1200);
     } catch (e) {
       alert('Copie impossible, sélectionne le texte manuellement.');
     }
