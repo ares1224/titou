@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>TITOU — One-Eyed Cat Memecoin</title>
+  <meta name="description" content="TITOU — the one-eyed gray tabby cat leading the memecoin pack. Join the Telegram & Twitter community." />
+  <meta name="theme-color" content="#7f5af0" />
+
+  <!-- Open Graph / Social -->
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="TITOU — One-Eyed Cat Memecoin" />
+  <meta property="og:description" content="One eye, thousand visions. Join Telegram & Twitter." />
+  <meta property="og:image" content="assets/og-image.png" />
+  <meta property="og:url" content="https://example.com" />
+
+  <link rel="icon" href="assets/favicon.png" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;600;700&family=Changa+One&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+  <script defer src="script.js"></script>
+</head>
+<body>
+  <a class="skip" href="#main">Skip to content</a>
+
+  <header class="site-header">
+    <div class="container nav">
+      <a class="brand" href="#">
+        <!-- Inline SVG fallback logo if no image present -->
+        <img src="assets/titou-logo.svg" alt="TITOU Logo" onerror="this.outerHTML=document.getElementById('logo-fallback').outerHTML" />
+        <svg id="logo-fallback" aria-hidden="true" viewBox="0 0 140 40" focusable="false">
+          <text x="0" y="30" font-family="Changa One, sans-serif" font-size="34" fill="currentColor">TITOU</text>
+        </svg>
+      </a>
+
+      <button id="navToggle" class="nav-toggle" aria-label="Open menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+
+      <nav id="siteNav" class="menu">
+        <a href="#about">About</a>
+        <a href="#tokenomics">Tokenomics</a>
+        <a href="#roadmap">Roadmap</a>
+        <a href="#links">Links</a>
+        <a id="navTelegram" class="btn btn-outline" target="_blank" rel="noopener">Telegram</a>
+        <a id="navTwitter" class="btn btn-primary" target="_blank" rel="noopener">Twitter</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="hero reveal">
+      <div class="container hero-inner">
+        <div class="hero-copy">
+          <h1><span class="highlight">TITOU</span> — the one-eyed cat of memecoins 🐾</h1>
+          <p class="lead">One eye, thousand visions. <strong>$TITOU</strong> on <span class="chain">Solana</span>. Join the pack and climb the trees of DeFi.</p>
+
+          <div class="cta">
+            <a id="ctaTelegram" class="btn btn-lg btn-primary" target="_blank" rel="noopener">Join Telegram</a>
+            <a id="ctaTwitter" class="btn btn-lg btn-outline" target="_blank" rel="noopener">Follow on Twitter</a>
+            <a id="ctaDex" class="btn btn-lg btn-ghost" target="_blank" rel="noopener">Buy (soon)</a>
+          </div>
+
+          <div class="contract">
+            <span class="label">Contract address</span>
+            <code id="contractAddress">SoL11111111111111111111111111111111111111111</code>
+            <button id="copyAddress" class="btn btn-mini" aria-label="Copy the address">Copy</button>
+          </div>
+        </div>
+
+        <div class="hero-art">
+          <img src="assets/titou-hero.png" alt="Titou, the one-eyed gray tabby cat, mascot of the memecoin" />
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="section reveal">
+      <div class="container grid-2">
+        <div>
+          <h2>Why <span class="highlight">TITOU</span>?</h2>
+          <p>Titou is a gray tabby cat and <strong>one-eyed</strong>: 🐾 The Legend of Titou
+
+            Titou is not just a cat. He is a survivor, a fighter, and today, the symbol of a different vision in the world of cryptocurrency.
+            
+            Abandoned and then rescued at the ASPA, Titou had to face illness from his earliest days. <p>Fragile, stunted in growth, ravaged by coryza, he nearly lost his life more than once. Then came the ultimate trial: an ulcer that forced him to lose his left eye. Forever marked by a scar, Titou became one-eyed… but never broken. On the contrary, he came out stronger, more grateful, and incredibly endearing.
+            
+            Fed by pipette by his owner Laura, he survived thanks to love, resilience, and the will to live. Even after other battles – losing several teeth, his fear of traveling, the ordeal of a long flight to Guadeloupe – Titou always kept the same essence: a unique gaze that intimidates, but a tender heart that only seeks to give love.
+            
+          </p>
+          <p>In the Caribbean, he forged a new destiny: fighting off wild cats, hens and chicks, climbing trees, hunting lizards and frogs that he proudly offered as gifts to his owner. Every scar, every trial, every journey made him more than a cat: it made him a living legend.</p>
+            
+            <p>💎 Why $TITOU?</p>
+            
+            <p>Because $TITOU embodies what many forget in crypto:
+            
+            Resilience in the face of adversity.
+            
+            Loyalty to its community.
+            
+            Strength in transforming weakness into identity.
+            
+            Sincere attachment that unites every member of the circle.
+            
+            But $TITOU is not just a touching story: it is an ambition. We want to make Titou a universal reference of resilience, loyalty, strength, and attachment. Those who choose to invest in this project are not just betting on a memecoin: they are proving that a meme can become much greater than our expectations and rise to the court of giants.
+            
+            Dogecoin, Shiba Inu, Pepe… Today, a new legend enters the arena: $TITOU.</p>
+            
+            <p>✨ $TITOU – More than a memecoin, a living legend.</p>
+          <ul class="ticks">
+            <li>Community-first: memes, contests, airdrops</li>
+            <li>Transparency: locked liquidity, renounced ownership </li>
+            <li>Organic marketing: Twitter & Telegram coordinated</li>
+          </ul>
+        </div>
+        <div class="card">
+          <h3>Quick info</h3>
+          <ul class="info">
+            <li><span>Symbol:</span> <strong>$TITOU</strong></li>
+            <li><span>Chain:</span> <strong>Solana</strong></li>
+            <li><span>Total supply:</span> <strong>1,000,000,000</strong></li>
+            <li><span>LP:</span> <strong>Locked</strong> Not already locked</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section id="tokenomics" class="section alt reveal">
+      <div class="container">
+        <h2>Tokenomics</h2>
+        <div class="tokenomics">
+          <div class="tok">
+            <div class="bar"><span style="width: 40%"></span></div>
+            <div class="meta"><strong>40%</strong> — Liquidity / DEX</div>
+          </div>
+          <div class="tok">
+            <div class="bar"><span style="width: 30%"></span></div>
+            <div class="meta"><strong>30%</strong> — Community / Airdrops</div>
+          </div>
+          <div class="tok">
+            <div class="bar"><span style="width: 20%"></span></div>
+            <div class="meta"><strong>20%</strong> — Marketing</div>
+          </div>
+          <div class="tok">
+            <div class="bar"><span style="width: 10%"></span></div>
+            <div class="meta"><strong>10%</strong> — Team</div>
+          </div>
+        </div>
+        <p class="hint">👉 Adjust the percentages according to your strategy.</p>
+      </div>
+    </section>
+
+    <section id="trailer" class="section reveal">
+      <div class="container" style="text-align:center;">
+        <h2>TITOU Trailer</h2>
+        <video controls poster="assets/titou-hero.png" style="max-width:500px; width:100%; border-radius:12px; box-shadow:0 4px 18px rgba(0,0,0,0.5);">
+          <source src="assets/TITOU.MP4" type="video/mp4">
+          Your browser does not support the video tag.
+        </video>
+      </div>
+    </section>
+    
+    
+
+    <section id="roadmap" class="section reveal">
+      <div class="container">
+        <h2>Roadmap</h2>
+        <div class="roadmap">
+          <div class="step">
+            <h3>Phase 1 — Launch</h3>
+            <ul>
+              <li>Website & branding </li>
+              <li>Twitter & Telegram live</li>
+              <li>First memes & airdrops</li>
+            </ul>
+          </div>
+          <div class="step">
+            <h3>Phase 2 — Expansion</h3>
+            <ul>
+              <li>Meme / KOL partnerships</li>
+              <li>Coin trackers & listings</li>
+              <li>Mini-game / fun utility</li>
+            </ul>
+          </div>
+          <div class="step">
+            <h3>Phase 3 — Adoption</h3>
+            <ul>
+              <li>Community contests</li>
+              <li>Merch & NFTs </li>
+              <li>CEX listings</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="links" class="section alt reveal">
+      <div class="container links">
+        <h2>Join the pack</h2>
+        <p>Stay updated with announcements: airdrops, contests, and listings.</p>
+        <div class="cta">
+          <a id="linksTelegram" class="btn btn-lg btn-primary" target="_blank" rel="noopener" aria-label="Open Telegram">Telegram</a>
+          <a id="linksTwitter" class="btn btn-lg btn-outline" target="_blank" rel="noopener" aria-label="Open Twitter">Twitter</a>
+        </div>
+      </div>
+    </section>
+
+    <section id="faq" class="section reveal">
+      <div class="container">
+        <h2>FAQ</h2>
+        <details>
+          <summary>Is this financial advice?</summary>
+          <p>No. $TITOU is a community meme project. Always do your own research.</p>
+        </details>
+        <details>
+          <summary>Where can I see the chart and trade?</summary>
+          <a href="https://axiom.trade/discover" style="color: rgba(162, 167, 161, 0.589)" target="_blank">https://axiom.trade/discover</a>
+        </details>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container foot">
+      <small>© <span id="year"></span> TITOU — community memecoin. A site by the community.</small>
+      <div class="foot-links">
+        <a href="#about">About</a>
+        <a href="#tokenomics">Tokenomics</a>
+        <a href="#roadmap">Roadmap</a>
+        <a href="#links">Links</a>
+      </div>
+    </div>
+  </footer>
+
+  <noscript>This site works better with JavaScript enabled.</noscript>
+</body>
+</html>
